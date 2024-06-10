@@ -5,6 +5,6 @@
 ### Blog:
 *[View article](https://blog.sltech.no/Article/1)*
 
-Stein Lundbeck *[Website](htpps://sltech.no)* | *[Email](mailto:stein@sltech.no)*
-
 &copy; 2024 Stein Lundbeck
+
+*[Website](htpps://sltech.no)* | *[Email](mailto:stein@sltech.no)*
