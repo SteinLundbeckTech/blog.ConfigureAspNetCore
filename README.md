@@ -4,4 +4,4 @@
 
 *[Read the article](https://blog.sltech.no/Article/1)*
 
-&copy; 2024 Stein Lundbeck - *[Website](https://sltech.no) | [Email](mailto:stein@sltech.no)*
+&copy; 2024 Stein Lundbeck - *[Website](https://sltech.no) | [Blog](https://blog.sltech.no) | [Email](mailto:stein@sltech.no)*
