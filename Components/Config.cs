@@ -1,4 +1,8 @@
-﻿using Blog.ConfigureAspNetCore.Components.Extensions;
+﻿/*
+    Configure ASP.NET Core - https://blog.sltech.no
+ */
+
+using Blog.ConfigureAspNetCore.Components.Extensions;
 using Blog.ConfigureAspNetCore.Components.Features;
 
 namespace Blog.ConfigureAspNetCore.Components

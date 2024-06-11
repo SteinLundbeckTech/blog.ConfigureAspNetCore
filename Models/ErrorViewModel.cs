@@ -1,3 +1,7 @@
+/*
+    Configure ASP.NET Core - https://blog.sltech.no
+ */
+
 namespace Blog.ConfigureAspNetCore.Models
 {
     public class ErrorViewModel

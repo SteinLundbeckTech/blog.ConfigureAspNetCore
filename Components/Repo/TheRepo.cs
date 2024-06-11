@@ -1,4 +1,8 @@
-﻿namespace Blog.ConfigureAspNetCore.Components.Repo
+﻿/*
+    Configure ASP.NET Core - https://blog.sltech.no
+ */
+
+namespace Blog.ConfigureAspNetCore.Components.Repo
 {
     public interface ITheRepo
     {

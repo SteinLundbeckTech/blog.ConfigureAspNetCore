@@ -1,3 +1,7 @@
+/*
+    Configure ASP.NET Core - https://blog.sltech.no
+ */
+
 using Blog.ConfigureAspNetCore.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;

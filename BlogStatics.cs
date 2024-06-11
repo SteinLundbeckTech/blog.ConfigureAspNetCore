@@ -1,4 +1,8 @@
-﻿namespace Blog.ConfigureAspNetCore
+﻿/*
+    Configure ASP.NET Core - https://blog.sltech.no
+ */
+
+namespace Blog.ConfigureAspNetCore
 {
     /// <summary>
     /// Supported features

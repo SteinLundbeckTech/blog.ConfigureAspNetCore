@@ -1,4 +1,8 @@
-﻿namespace Blog.ConfigureAspNetCore.Components.Features
+﻿/*
+    Configure ASP.NET Core - https://blog.sltech.no
+ */
+
+namespace Blog.ConfigureAspNetCore.Components.Features
 {
     public sealed class DefaultRoute : FeatureBase
     {
