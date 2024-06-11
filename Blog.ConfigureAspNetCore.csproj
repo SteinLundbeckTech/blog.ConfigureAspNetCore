@@ -4,6 +4,39 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>sltech-logo.ico</ApplicationIcon>
+    <Title>SL Tech blog - Configure ASP.NET Core</Title>
+    <Version>1.0.4</Version>
+    <Authors>Stein Lundbeck</Authors>
+    <Company>SL Tech</Company>
+    <Description>Blog article on how to configure a site</Description>
+    <Copyright>2024 Stein Lundbeck</Copyright>
+    <PackageProjectUrl>https://blog.sltech.no</PackageProjectUrl>
+    <PackageIcon>SLTech-logo.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/SteinLundbeckTech/blog.ConfigureAspNetCore</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>DEV;C#;CONFIGURE;ASP.NET-CORE</PackageTags>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="sltech-logo.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="SLTech-logo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
