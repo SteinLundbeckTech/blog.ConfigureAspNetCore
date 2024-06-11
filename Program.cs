@@ -9,5 +9,5 @@ using Blog.ConfigureAspNetCore.Components.Repo;
 
 new Config(args,
     new SSL(),
-    new Service(typeof(ITheRepo), typeof(TheRepo), ServiceScopes.Transient),
+    new Service(typeof(ITheRepo), typeof(TheRepo), ServiceScope.Transient),
     new DefaultRoute("Demo", "Index"));

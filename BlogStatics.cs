@@ -17,7 +17,7 @@ namespace Blog.ConfigureAspNetCore
     /// <summary>
     /// Supported service scopes
     /// </summary>
-    public enum ServiceScopes
+    public enum ServiceScope
     {
         Scoped,
         Singleton,

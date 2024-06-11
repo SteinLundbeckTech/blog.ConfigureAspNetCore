@@ -61,35 +61,35 @@ namespace Blog.ConfigureAspNetCore.Components
                 {
                     switch(srv.Scope)
                     {
-                        case ServiceScopes.Singleton:
+                        case ServiceScope.Singleton:
                             AddService(srv.Interface, srv.Implementation, srv.Scope);
                             break;
 
-                        case ServiceScopes.Transient:
+                        case ServiceScope.Transient:
                             AddService(srv.Interface, srv.Implementation, srv.Scope);
                             break;
 
-                        case ServiceScopes.Scoped:
+                        case ServiceScope.Scoped:
                             AddService(srv.Interface, srv.Implementation, srv.Scope);
                             break;
                     }   
                 }
 
-                void AddService(Type? interface_, Type implementation, ServiceScopes scope)
+                void AddService(Type? interface_, Type implementation, ServiceScope scope)
                 {
                     if (interface_ != null)
                     {
                         switch (scope)
                         {
-                            case ServiceScopes.Transient:
+                            case ServiceScope.Transient:
                                 _builder.Services.AddTransient(interface_, implementation);
                                 break;
 
-                            case ServiceScopes.Singleton:
+                            case ServiceScope.Singleton:
                                 _builder.Services.AddSingleton(interface_, implementation);
                                 break;
 
-                            case ServiceScopes.Scoped:
+                            case ServiceScope.Scoped:
                                 _builder.Services.AddScoped(interface_, implementation);
                                 break;
                         }
@@ -98,15 +98,15 @@ namespace Blog.ConfigureAspNetCore.Components
                     {
                         switch (scope)
                         {
-                            case ServiceScopes.Transient:
+                            case ServiceScope.Transient:
                                 _builder.Services.AddTransient(implementation);
                                 break;
 
-                            case ServiceScopes.Singleton:
+                            case ServiceScope.Singleton:
                                 _builder.Services.AddSingleton(implementation);
                                 break;
 
-                            case ServiceScopes.Scoped:
+                            case ServiceScope.Scoped:
                                 _builder.Services.AddScoped(implementation);
                                 break;
                         }
